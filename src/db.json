@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "A Tale of Two Cities",
+      "price": 200,
+      "author":"Charles Dickens",
+      "photo": "https://images.pexels.com/photos/2608179/pexels-photo-2608179.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 2,
+      "name": "Botanical Illustration",
+      "price": 200,
+      "author":"Charles Dickens",
+      "photo": "https://images.pexels.com/photos/4348191/pexels-photo-4348191.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 3,
+      "name": "Take the Risk",
+      "price": 200,
+      "author":"Charles Dickens",
+      "photo": "https://images.pexels.com/photos/2386687/pexels-photo-2386687.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 4,
+      "name": "The World Atlas of Coffee",
+      "price": 200,
+      "author":"James Hoffman",
+      "photo": "https://images.pexels.com/photos/2187601/pexels-photo-2187601.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 5,
+      "name": "Little Black Book",
+      "price": 200,
+      "author":"Otegha Uwangba",
+      "photo": "https://images.pexels.com/photos/734968/pexels-photo-734968.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 6,
+      "name": "Your Soul is a River",
+      "price": 200,
+      "author":"Nikita Gill",
+      "photo": "https://images.pexels.com/photos/904620/pexels-photo-904620.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 7,
+      "name": "The Passion Within",
+      "price": 200,
+      "author":"Charles Dickens",
+      "photo": "https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    },
+    {
+      "id": 8,
+      "name": "A Tale of Two Cities",
+      "price": 200,
+      "author":"Charles Dickens",
+      "photo": "https://images.pexels.com/photos/1516983/pexels-photo-1516983.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "availableUnits": 99,
+      "online": false
+    }
+  ]
+  }

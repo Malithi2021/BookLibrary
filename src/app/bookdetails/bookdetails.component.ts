@@ -18,7 +18,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
       alt="Exterior photo of {{BookItem?.name}}"/>
     <section class="listing-description">
       <h2 class="listing-heading">{{BookItem?.name}}</h2>
-      <p class="listing-location">{{BookItem?.author}}, {{BookItem?.price}}</p>
+      <p class="listing-location">{{BookItem?.author}}, {{BookItem?.price}}/=</p>
     </section>
     <section class="listing-features">
       <h2 class="section-heading">About this book </h2>
@@ -38,7 +38,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
         <label for="email">Email</label>
         <input id="email" type="email" formControlName="email">
-        <button type="submit" class="primary">Apply now</button>
+        <button type="submit" class="primary">Order now</button>
       </form>
     </section>
   </article>
@@ -56,9 +56,12 @@ export class BookdetailsComponent {
     email: new FormControl('')
   });
 
+
   constructor() {
-    const bookId = Number(this.route.snapshot.params['id']);
-    this.BookItem = this.BookingService.getBookItemById(bookId);
+    const bookId = parseInt(this.route.snapshot.params['id'], 10);
+    this.BookingService.getBookItemById(bookId).then(BookItem => {
+      this.BookItem = BookItem;
+    });
   }
 
   submitApplication() {
